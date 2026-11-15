@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" role="img" aria-label="Jose Bustos, AI Developer y SaaS Builder">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/><stop offset=".35" stop-color="#a855f7"/>
+      <stop offset=".7" stop-color="#ec4899"/><stop offset="1" stop-color="#fb923c"/>
+      <animateTransform attributeName="gradientTransform" type="rotate" from="0 .5 .5" to="360 .5 .5" dur="9s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="70"/></filter>
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="9" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" fill="none" stroke="#ffffff" stroke-opacity=".045"/></pattern>
+    <clipPath id="frame"><rect width="1200" height="400" rx="26"/></clipPath>
+    <clipPath id="type"><rect x="150" y="226" height="50" width="0"><animate attributeName="width" from="0" to="470" dur="2.2s" begin="1s" fill="freeze"/></rect></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="400" fill="#0a0a12"/>
+    <g filter="url(#blur)" opacity=".75">
+      <circle cx="180" cy="90" r="170" fill="#7c3aed"><animate attributeName="cx" values="180;420;180" dur="16s" repeatCount="indefinite"/><animate attributeName="cy" values="90;200;90" dur="13s" repeatCount="indefinite"/></circle>
+      <circle cx="1000" cy="320" r="190" fill="#0891b2"><animate attributeName="cx" values="1000;760;1000" dur="18s" repeatCount="indefinite"/><animate attributeName="cy" values="320;150;320" dur="15s" repeatCount="indefinite"/></circle>
+      <circle cx="640" cy="420" r="150" fill="#db2777" opacity=".8"><animate attributeName="cx" values="640;880;440;640" dur="22s" repeatCount="indefinite"/></circle>
+    </g>
+    <rect width="1200" height="400" fill="url(#grid)"/>
+    <rect width="1200" height="400" fill="#0a0a12" opacity=".35"/>
+    <circle cx="90" cy="330" r="2.2" fill="#22d3ee" opacity="0"><animate attributeName="cy" values="330;260" dur="6s" begin="0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.9;0" dur="6s" begin="0s" repeatCount="indefinite"/></circle><circle cx="210" cy="380" r="1.6" fill="#a855f7" opacity="0"><animate attributeName="cy" values="380;310" dur="7s" begin="1.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.9;0" dur="7s" begin="1.2s" repeatCount="indefinite"/></circle><circle cx="350" cy="350" r="2" fill="#ec4899" opacity="0"><animate attributeName="cy" values="350;280" dur="5.5s" begin="2.1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.9;0" dur="5.5s" begin="2.1s" repeatCount="indefinite"/></circle><circle cx="520" cy="390" r="1.5" fill="#22d3ee" opacity="0"><animate attributeName="cy" values="390;320" dur="8s" begin="0.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.9;0" dur="8s" begin="0.6s" repeatCount="indefinite"/></circle><circle cx="700" cy="360" r="2.2" fill="#fb923c" opacity="0"><animate attributeName="cy" values="360;290" dur="6.5s" begin="3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.9;0" dur="6.5s" begin="3s" repeatCount="indefinite"/></circle><circle cx="860" cy="385" r="1.7" fill="#a855f7" opacity="0"><animate attributeName="cy" values="385;315" dur="7.5s" begin="1.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.9;0" dur="7.5s" begin="1.8s" repeatCount="indefinite"/></circle><circle cx="1010" cy="340" r="2" fill="#22d3ee" opacity="0"><animate attributeName="cy" values="340;270" dur="6s" begin="2.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.9;0" dur="6s" begin="2.6s" repeatCount="indefinite"/></circle><circle cx="1120" cy="380" r="1.6" fill="#ec4899" opacity="0"><animate attributeName="cy" values="380;310" dur="8s" begin="0.9s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.9;0" dur="8s" begin="0.9s" repeatCount="indefinite"/></circle><circle cx="1160" cy="300" r="1.4" fill="#fb923c" opacity="0"><animate attributeName="cy" values="300;230" dur="7s" begin="3.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.9;0" dur="7s" begin="3.6s" repeatCount="indefinite"/></circle><circle cx="40" cy="250" r="1.4" fill="#a855f7" opacity="0"><animate attributeName="cy" values="250;180" dur="9s" begin="4.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.9;0" dur="9s" begin="4.2s" repeatCount="indefinite"/></circle><circle cx="610" cy="320" r="1.3" fill="#ec4899" opacity="0"><animate attributeName="cy" values="320;250" dur="6.8s" begin="4.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.9;0" dur="6.8s" begin="4.8s" repeatCount="indefinite"/></circle><circle cx="960" cy="280" r="1.5" fill="#22d3ee" opacity="0"><animate attributeName="cy" values="280;210" dur="7.2s" begin="5.1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.9;0" dur="7.2s" begin="5.1s" repeatCount="indefinite"/></circle>
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur=".8s" begin=".1s" fill="freeze"/>
+      <text x="150" y="112" font-family="'Cascadia Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="17" fill="#a1a1aa" letter-spacing="3">&lt;hola mundo /&gt;</text>
+    </g>
+    <g filter="url(#glow)" opacity="0"><animate attributeName="opacity" values="0;1" dur="1s" begin=".3s" fill="freeze"/>
+      <text x="146" y="200" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="96" font-weight="800" letter-spacing="-2" fill="url(#g)">Jose Bustos</text>
+    </g>
+    <g clip-path="url(#type)"><text x="150" y="262" font-family="'Cascadia Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="30" font-weight="600" fill="#f4f4f5">AI Developer &amp; SaaS Builder</text></g>
+    <rect x="150" y="232" width="3" height="36" fill="#22d3ee">
+      <animate attributeName="x" from="150" to="622" dur="2.2s" begin="1s" fill="freeze"/>
+      <animate attributeName="opacity" values="1;0;1" dur=".9s" repeatCount="indefinite"/>
+    </rect>
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur=".8s" begin="3s" fill="freeze"/>
+      <text x="150" y="298" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="19" fill="#d4d4d8">Convierto ideas en productos con IA que funcionan en producción.</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur=".6s" begin="3.4s" fill="freeze"/><rect x="150" y="318" width="245" height="34" rx="17" fill="#ffffff" fill-opacity=".06" stroke="url(#g)" stroke-width="1.2"/><circle cx="167" cy="335" r="4" fill="#34d399"><animate attributeName="opacity" values="1;.25;1" dur="1.6s" repeatCount="indefinite"/></circle><text x="180" y="340" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="600" fill="#e4e4e7">6 productos en producción</text></g><g opacity="0"><animate attributeName="opacity" values="0;1" dur=".6s" begin="3.75s" fill="freeze"/><rect x="400" y="318" width="176" height="34" rx="17" fill="#ffffff" fill-opacity=".06" stroke="url(#g)" stroke-width="1.2"/><circle cx="417" cy="335" r="4" fill="#34d399"><animate attributeName="opacity" values="1;.25;1" dur="1.6s" repeatCount="indefinite"/></circle><text x="430" y="340" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="600" fill="#e4e4e7">20+ webs a medida</text></g><g opacity="0"><animate attributeName="opacity" values="0;1" dur=".6s" begin="4.1s" fill="freeze"/><rect x="610" y="318" width="279" height="34" rx="17" fill="#ffffff" fill-opacity=".06" stroke="url(#g)" stroke-width="1.2"/><circle cx="627" cy="335" r="4" fill="#34d399"><animate attributeName="opacity" values="1;.25;1" dur="1.6s" repeatCount="indefinite"/></circle><text x="640" y="340" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="600" fill="#e4e4e7">vídeo · voz · avatares con IA</text></g>
+    <g transform="translate(960 96)" opacity=".95">
+      <g fill="none" stroke="url(#g)" stroke-width="2.2">
+        <circle r="78" stroke-dasharray="12 10"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="22s" repeatCount="indefinite"/></circle>
+        <circle r="54" stroke-dasharray="4 9" opacity=".8"><animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="14s" repeatCount="indefinite"/></circle>
+        <circle r="30" opacity=".9"><animate attributeName="r" values="30;35;30" dur="3s" repeatCount="indefinite"/></circle>
+      </g>
+      <text y="9" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="26" font-weight="800" fill="#f4f4f5">IA</text>
+    </g>
+    <rect x="1" y="1" width="1198" height="398" rx="25" fill="none" stroke="url(#g)" stroke-width="2" opacity=".7"/>
+  </g>
+</svg>

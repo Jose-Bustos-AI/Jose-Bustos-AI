@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 150" width="1200" height="150" role="img" aria-label="Hablemos">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/><stop offset=".35" stop-color="#a855f7"/>
+      <stop offset=".7" stop-color="#ec4899"/><stop offset="1" stop-color="#fb923c"/>
+      <animateTransform attributeName="gradientTransform" type="rotate" from="0 .5 .5" to="360 .5 .5" dur="9s" repeatCount="indefinite"/>
+    </linearGradient><clipPath id="f"><rect width="1200" height="150" rx="22"/></clipPath></defs>
+  <g clip-path="url(#f)">
+    <rect width="1200" height="150" fill="#0a0a12"/>
+    <path fill="url(#g)" opacity=".35"><animate attributeName="d" dur="9s" repeatCount="indefinite" values="M0 100 Q300 60 600 100 T1200 100 V150 H0Z;M0 100 Q300 140 600 100 T1200 100 V150 H0Z;M0 100 Q300 60 600 100 T1200 100 V150 H0Z"/></path>
+    <path fill="url(#g)" opacity=".55"><animate attributeName="d" dur="6s" repeatCount="indefinite" values="M0 118 Q300 138 600 118 T1200 118 V150 H0Z;M0 118 Q300 96 600 118 T1200 118 V150 H0Z;M0 118 Q300 138 600 118 T1200 118 V150 H0Z"/></path>
+    <text x="600" y="58" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="30" font-weight="800" fill="#fafafa">¿Tienes una idea? La pongo en producción.</text>
+    <text x="600" y="86" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" fill="#a1a1aa">Apps con IA · webs a medida · automatización para empresas y pymes</text>
+  </g>
+</svg>
